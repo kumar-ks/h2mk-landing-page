@@ -1,105 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>H2MK | Training & Freelancing Projects</title>
+  <meta charset="UTF-8">
+  <title>H2MK – Training & Freelance Projects</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #f9f9f9;
-      color: #333;
-    }
-    header {
-      background: #0057b7;
-      color: white;
-      padding: 2rem 1rem;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-    header p {
-      font-size: 1.2rem;
-    }
-    nav {
-      background: #003f8a;
-      padding: 1rem;
-      text-align: center;
-    }
-    nav a {
-      color: white;
-      margin: 0 1rem;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    section {
-      padding: 2rem 1rem;
-      max-width: 900px;
-      margin: auto;
-    }
-    .services {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 2rem;
-    }
-    .card {
-      background: white;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-      padding: 1.5rem;
-      flex: 1 1 300px;
-    }
-    footer {
-      text-align: center;
-      padding: 1.5rem;
-      background: #eee;
-      font-size: 0.9rem;
-    }
+    body {font-family: Arial, sans-serif; margin:0; padding:0;}
+    header {background:#004080; color:#fff; padding:50px 20px; text-align:center;}
+    header h1 {margin:0; font-size:2.5em;}
+    header p {font-size:1.2em;}
+    .cta {margin:20px auto;}
+    .cta a {margin:0 10px; padding:12px 24px; background:#ff8000; color:#fff; text-decoration:none; border-radius:4px;}
+    section {padding:40px 20px; max-width:800px; margin:auto;}
+    .cards {display:grid; grid-template-columns:1fr 1fr; gap:20px;}
+    .card {background:#f4f4f4; padding:20px; border-radius:6px;}
+    footer {background:#222; color:#ddd; text-align:center; padding:20px;}
   </style>
 </head>
 <body>
 
 <header>
-  <h1>Welcome to H2MK</h1>
-  <p>Your partner in IT Training & Freelancing Excellence</p>
+  <h1>H2MK: Training & Freelance Projects</h1>
+  <p>Hands‑on QA & DevOps training + real business projects for job‑ready skills</p>
+  <div class="cta">
+    <a href="#training">Join a Batch</a>
+    <a href="#projects">Explore Projects</a>
+  </div>
 </header>
 
-<nav>
-  <a href="#about">About</a>
-  <a href="#services">Services</a>
-  <a href="#contact">Contact</a>
-</nav>
-
-<section id="about">
-  <h2>About H2MK</h2>
-  <p>H2MK is a tech-driven initiative focused on empowering individuals through expert-led training and delivering high-quality freelancing solutions for startups, enterprises, and innovators.</p>
-</section>
-
-<section id="services">
-  <h2>Our Services</h2>
-  <div class="services">
-    <div class="card">
-      <h3>Training Programs</h3>
-      <p>Industry-relevant, hands-on training in DevOps, Cloud, Data Engineering, and AI/ML. Upskill with real-time project exposure.</p>
-    </div>
-    <div class="card">
-      <h3>Freelancing Projects</h3>
-      <p>We take up turnkey software projects — from architecture to deployment. Let us be your technology execution partner.</p>
-    </div>
+<section id="training">
+  <h2>👨‍🎓 Training Programs</h2>
+  <p>In‑person, hands‑on sessions for QA & DevOps. Learn by building.</p>
+  <div class="cards">
+    <div class="card"><h3>QA Automation</h3><p>Selenium, API testing, CI/CD with Jenkins.</p></div>
+    <div class="card"><h3>DevOps Engineering</h3><p>Containerization, Terraform, Kubernetes (EKS/ECS).</p></div>
   </div>
 </section>
 
-<section id="contact">
-  <h2>Contact Us</h2>
-  <p>Email: <a href="mailto:info@h2mk.in">info@h2mk.in</a></p>
-  <p>Follow us on LinkedIn: <a href="https://linkedin.com" target="_blank">H2MK</a></p>
+<section id="projects">
+  <h2>🚀 Freelance Projects</h2>
+  <p>Work with real startup requirements and produce business-grade solutions.</p>
+  <div class="cards">
+    <div class="card"><h3>Client QA</h3><p>End-to-end test suite for a small ecommerce app.</p></div>
+    <div class="card"><h3>DevOps Setup</h3><p>CI/CD pipelines for microservices with monitoring.</p></div>
+  </div>
+</section>
+
+<section id="testimonial">
+  <h2>👍 Success Stories</h2>
+  <blockquote>"I completed H2MK’s DevOps batch and immediately landed a platform engineer role!"</blockquote>
 </section>
 
 <footer>
-  © 2025 H2MK. All rights reserved.
+  <p>📍 Bangalore | 🎓 Free Training | 💻 Hands‑On | 📞 Contact: +91‑XXXXXXXXXX</p>
 </footer>
 
 </body>
